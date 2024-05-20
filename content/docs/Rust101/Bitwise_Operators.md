@@ -23,8 +23,8 @@ The table below summarizes the types of bitwise operators in Rust.
 | operand1 \| operand2  	| OR 	| bitwise OR operand1 and operand2 	|
 | operand1 ^ operand2   	| XOR 	| bitwise XOR operand1 and operand2 	|
 |     ! operand1  	| NOT 	| Inverse the bit of operand  	|
-| << operand  	| Left shift 	| moves all the operand1 to the left by the number of places specified in the operand 2 <br>new bits filled with zeros . shifting a value left by one position is equivalent to multiplying it by 2 ,<br>Shifting to positions is equivalent to multiplying it by 4 and so on  	|
-| >> operand  	| Right Shift  	| moves all the operand1 to the right by the number of places specified in the operand 2 <br>new bits filled with zeros . shifting a value right by one position is equivalent to multiplying it by 2 ,<br>Shifting to positions is equivalent to multiplying it by 4 and so on 	|
+| << operand  	| Left shift 	| moves all the operand1 to the left by the number of places specified in the operand 2 <br>new bits filled with zeros. shifting a value left by one position is equivalent to multiplying it by 2,<br>Shifting two positions is equivalent to multiplying it by 4 and so on  	|
+| >> operand  	| Right Shift  	| moves all the operand1 to the right by the number of places specified in the operand 2 <br>new bits filled with zeros. shifting a value right by one position is equivalent to multiplying it by 2,<br>Shifting two positions is equivalent to multiplying it by 4 and so on 	|
 
 
 📝 Note: Right shift >> is same as arithmetic right shift on signed integer types, logical right shift on unsigned integer types.
